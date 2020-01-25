@@ -7,28 +7,55 @@ namespace Capstone_1_Pig_Latin
     {
         static void Main(string[] args)
         {
-            char[] vowels = { 'a', 'e', 'i', 'o', 'u' };
 
-            Console.WriteLine("Word please!:");
-            string userWord = Console.ReadLine();
-
-            string translatedInput = "";
-            for (int i = 0; i < vowels.Length; i++)
+            string userContinue = "y";
+            while (userContinue == "y")
             {
-                if (userWord.StartsWith(vowels[i]))
+                Console.WriteLine("Please enter the word you would like to translate");
+                string userInput = Console.ReadLine().ToLower();
+
+                if (StartsWithVowel(userInput))
                 {
-                    translatedInput = (userWord + "way");
-                    //Console.WriteLine(userWord + "way");
+                    Console.WriteLine(userInput + "way");
                 }
                 else
                 {
-                    translatedInput = MakePigLatin(userWord);
-                    //Console.WriteLine(translatedInput);
+                    Console.WriteLine(MakePigLatin(userInput));
+                }
+
+                Console.WriteLine("Would you like to continue? (y/n)");
+                userContinue = Console.ReadLine().ToLower();
+                while (userContinue != "y" && userContinue != "n")
+                {
+                    Console.WriteLine("Please enter 'y' or 'n'.");
+                    userContinue = Console.ReadLine();
                 }
             }
-            Console.WriteLine(translatedInput);
-
         }
+
+
+
+
+        //Accepts a string as input, and for each element in the 'vowels' array, asks if the given string StartsWith a vowel, if so, returns true, else returns false
+        public static bool StartsWithVowel(string wordToCheck)
+        {
+            char[] vowels = { 'a', 'e', 'i', 'o', 'u' };
+            bool result = true;
+            for (int i = 0; i < vowels.Length; i++)
+            {
+                if (wordToCheck.StartsWith(vowels[i]))
+                {
+                    result = true;
+                    break;
+                }
+                else
+                {
+                    result = false;
+                }
+            }
+            return result;
+        }
+
         public static string MakePigLatin(string wordToTranslate)
         {
             string startOfWord;
@@ -52,6 +79,5 @@ namespace Capstone_1_Pig_Latin
             }
             return completeWord;
         }
-        }
     }
-
+}
