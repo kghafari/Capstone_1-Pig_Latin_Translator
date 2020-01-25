@@ -1,0 +1,11 @@
+C:\Users\kyleg\source\repos\Capstone_1-Pig_Latin\Capstone_1-Pig_Latin\bin\Debug\netcoreapp3.0\Capstone_1-Pig_Latin.exe
+C:\Users\kyleg\source\repos\Capstone_1-Pig_Latin\Capstone_1-Pig_Latin\bin\Debug\netcoreapp3.0\Capstone_1-Pig_Latin.deps.json
+C:\Users\kyleg\source\repos\Capstone_1-Pig_Latin\Capstone_1-Pig_Latin\bin\Debug\netcoreapp3.0\Capstone_1-Pig_Latin.runtimeconfig.json
+C:\Users\kyleg\source\repos\Capstone_1-Pig_Latin\Capstone_1-Pig_Latin\bin\Debug\netcoreapp3.0\Capstone_1-Pig_Latin.runtimeconfig.dev.json
+C:\Users\kyleg\source\repos\Capstone_1-Pig_Latin\Capstone_1-Pig_Latin\bin\Debug\netcoreapp3.0\Capstone_1-Pig_Latin.dll
+C:\Users\kyleg\source\repos\Capstone_1-Pig_Latin\Capstone_1-Pig_Latin\bin\Debug\netcoreapp3.0\Capstone_1-Pig_Latin.pdb
+C:\Users\kyleg\source\repos\Capstone_1-Pig_Latin\Capstone_1-Pig_Latin\obj\Debug\netcoreapp3.0\Capstone_1-Pig_Latin.csprojAssemblyReference.cache
+C:\Users\kyleg\source\repos\Capstone_1-Pig_Latin\Capstone_1-Pig_Latin\obj\Debug\netcoreapp3.0\Capstone_1-Pig_Latin.AssemblyInfoInputs.cache
+C:\Users\kyleg\source\repos\Capstone_1-Pig_Latin\Capstone_1-Pig_Latin\obj\Debug\netcoreapp3.0\Capstone_1-Pig_Latin.AssemblyInfo.cs
+C:\Users\kyleg\source\repos\Capstone_1-Pig_Latin\Capstone_1-Pig_Latin\obj\Debug\netcoreapp3.0\Capstone_1-Pig_Latin.dll
+C:\Users\kyleg\source\repos\Capstone_1-Pig_Latin\Capstone_1-Pig_Latin\obj\Debug\netcoreapp3.0\Capstone_1-Pig_Latin.pdb
